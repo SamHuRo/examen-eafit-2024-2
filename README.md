@@ -62,3 +62,12 @@ Se desea encontrar la mejor recta $y = \beta_{0} + \beta{1}*x$ que se ajuste a e
 * Encuentre manualmente los coeficientes $\beta_{0}$ y $\beta_{1}$ usando la ecuación normal.
 * Implemente una solución computacional que verifique el resultado obtenido manualmente.
 * Grafique el conjunto de datos suministrado junto con la línea recta ajustada.
+
+## Pregunta 3
+
+Se ha registrado el consumo de energía eléctrica en kilovatios-hopa (kWh) en un edificio de oficinas cada hora durante un día laborable. los datos se encuentran en el archivo "consumo_energia.csv".
+
+1. Estadísticas descriptivas
+    * Calcule la media, la mediana, la moda y la desviación estándar del consumo de energía eléctrica por hora
+2. Análisis de datos
+    * Calcule el primer y tercer cuartil e interprete los resultados obtenidos.
