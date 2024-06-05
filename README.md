@@ -71,3 +71,31 @@ Se ha registrado el consumo de energía eléctrica en kilovatios-hopa (kWh) en u
     * Calcule la media, la mediana, la moda y la desviación estándar del consumo de energía eléctrica por hora
 2. Análisis de datos
     * Calcule el primer y tercer cuartil e interprete los resultados obtenidos.
+3. Evaluación de consumo
+    * Si se considera que un consumo de más de 100 kWhpor hora es alto ¿cuál es la proporción de horas que tienen un consumo alto?.
+    * Basándose en la media y la mediana, ¿qué puede decir sobre la distribución del consumo de energía eléctrica oir hora?.
+4. Planificación de recursos
+    * Si se planea implementar medidas de ahorro de energía durante las horas de alto consumo, ¿cuántas horas al día sería necesario implementar estas medidas?
+    * Si el costo de operación adicional por hora para implementar medidas de ahorro es de $50 durante las horas de alto consumo, estime el costo adicional para un día laborable.
+5. Visualización de datos
+    * Genere un histograma que represente el consumo de energía eléctrica por hora en el edificio de oficinas. Identifique los periodos de alto y bajo consumo.
+
+## Pregunta 4
+
+El archivo "datos_multivariados.csv" contiene un conjunto de datos con 10 variables y 100 observaciones que describen un determinado fenómeno. En particular, las variables presentan diferentes distribuciones y algunas contienen valores atípicos (outliers). Además, ciertas variables están correlacionadas entre si.
+
+1. Visualización preliminar de datos
+    * Genere gráficas de dispersión (scatter plot) para examinar las relaciones entre variables.
+    * Genere diagramas de caja (box plots) para evidenciar la presencia de outliers.
+    * Genere histogramas para entender la distribución de cada variable.
+2. Identificación y eliminación de outliers
+    * Utilice el rango intercuartílico (IQR) para identificar y eliminar las observaciones que contienen al menos un valor atípico en cualquier variable.
+    * Documente el número de observaciones eliminadas y el conjunto de datos resultante.
+3. Correlación de datos
+    * Calcule la matriz de correlación de Pearson para las variables del conjunto de datos limpio.
+    * Visualice la matriz de correlación utilizando un mapa de calor (heatmap).
+4. Selección de varialbes no correlacionadas
+    * Establezca un umbral de correlación (por ejemplo, 0.7).
+    * Identifique los pares de variables cuya correlación absoluta exceda el umbral establecido.
+    * Retenga todas las variables que no superen el umbral de correlación. Para cada par de variables que lo superen, seleccione la variable que muestre una mayor dispersión de los datos, ya que es problable que contenga más información relevante sobre el fenómeno que se está estudiando.
+    * Obtenga un conjunto final de datos con las variables seleccionadas.
