@@ -56,4 +56,4 @@ Se desea encontrar la mejor recta $y = \beta_{0} + \beta{1}*x$ que se ajuste a e
 ### Ejercicios:
 
 * Plnatee la ecuación normal $\beta = (X^{T} X)^{-1} X^{T} Y$ donde
-    * $X$ es una matriz de $n \cdot 2$ tal que su primera columna consiste en unos y la segunda columna está conformada por los $n$ valores de la variables independiente.
+    * $X$ es una matriz de $n \times 2$ tal que su primera columna consiste en unos y la segunda columna está conformada por los $n$ valores de la variables independiente.
