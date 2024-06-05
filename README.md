@@ -38,3 +38,22 @@ $$
     * Macimice la función utilizando gradiente ascendente.
     * Grafique la función y corrobore que el punto máximo encontrado corresponde al máximo de la función.
 
+## Pregunta 2
+
+Se han registrado los siguientes datos que muestran la realación entre la cantidad de luz solar diaria (horas) y la altura de las plantas (cm) en un experimento de cultivo:
+
+| Luz Solar [horas]        | Altura de la planta [cm]|
+|--------------------------|-------------------------|
+| 2                        | 5                       |
+| 3                        | 7                       |
+| 5                        | 10                      |
+| 6                        | 13                      |
+| 8                        | 15                      |
+| 9                        | 18                      |
+
+Se desea encontrar la mejor recta $y = \beta_{0} + \beta{1}*x$ que se ajuste a estos datos utilizando la ecuación normal de mínimos cuadrados para predecir la altura de las plantas en función de la cantidad de luz solar: 
+
+### Ejercicios:
+
+* Plnatee la ecuación normal $\beta = (X^{T} X)^{-1} X^{T} Y$ donde
+    * $X$ es una matriz de $n \cdot 2$ tal que su primera columna consiste en unos y la segunda columna está conformada por los $n$ valores de la variables independiente.
